@@ -1,0 +1,15 @@
+
+CREATE TABLE centrais(
+id int(4) AUTO_INCREMENT,
+empresa varchar(30) NOT NULL,
+ip varchar(30) NOT NULL,
+matriz varchar(30) NOT NULL,
+hd varchar(30) NOT NULL,
+tempo varchar(30) NOT NULL,
+down varchar(30) NOT NULL,
+up varchar(30) NOT NULL,
+processador varchar(30) NOT NULL,
+status_on varchar(30) NOT NULL,
+PRIMARY KEY (id)
+);
+

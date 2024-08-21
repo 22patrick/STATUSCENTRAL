@@ -1,0 +1,197 @@
+<mat-sidenav-container class="sidenav-container">
+  <mat-sidenav
+    #drawer
+    style="background-color: #522b76;"
+    class="sidenav"
+    fixedInViewport
+    [attr.role]="(isHandset$ | async) ? 'dialog' : 'navigation'"
+    [mode]="(isHandset$ | async) ? 'over' : 'side'"
+    [opened]="(isHandset$ | async) === true"
+  >
+    <mat-toolbar>
+      <img class="logo" src="assets/img/issabel_logo_mini2.png" alt="logo" />
+    </mat-toolbar>
+    <mat-nav-list>
+      <!-- 
+      <mat-list-item routerLink="dashboard">
+        <span
+          style="
+            vertical-align: top;
+            padding-right: 15px;
+            color: rgb(183, 177, 177);
+          "
+          class="material-icons"
+        >
+          dashboard
+        </span>
+        <a>Localizar</a>
+      </mat-list-item> -->
+
+      <mat-divider></mat-divider>
+      <mat-list-item routerLink="dashboard">
+        <span
+          style="
+            vertical-align: top;
+            padding-right: 15px;
+            color: rgb(183, 177, 177);
+          "
+          class="material-icons"
+        >
+          dashboard
+        </span>
+        <a>Dashboard</a>
+      </mat-list-item>
+      <mat-divider></mat-divider>
+      <mat-list-item routerLink="lista">
+        <span
+          style="
+            vertical-align: top;
+            padding-right: 15px;
+            color: rgb(183, 177, 177);
+          "
+          class="material-icons"
+        >
+          business
+        </span>
+        <a>Empresas</a></mat-list-item
+      >
+      <mat-divider></mat-divider>
+      <mat-list-item>
+        <span
+          style="
+            vertical-align: top;
+            padding-right: 15px;
+            color: rgb(183, 177, 177);
+          "
+          class="material-icons"
+        >
+          list
+        </span>
+        <a>Relatórios</a></mat-list-item
+      >
+      <mat-divider></mat-divider>
+    </mat-nav-list>
+  </mat-sidenav>
+  <mat-sidenav-content>
+    <mat-toolbar class="barra" style="height: 60px;">
+      <button
+        mat-icon-button
+        aria-label="Menu"
+        matTooltip="Menu"
+        (click)="drawer.toggle()"
+      >
+        <mat-icon style="color: rgb(183, 177, 177);">menu</mat-icon>
+      </button>
+      <span class="example-spacer" fxFlex></span>
+
+      <button
+        mat-icon-button
+        aria-label="Clientes"
+        matTooltip="Clientes"
+        routerLink="lista"
+      >
+        <mat-icon style="color: rgb(183, 177, 177);">engineering</mat-icon>
+      </button>
+
+      <span
+        style="
+          color: rgb(183, 177, 177);
+          padding-right: 5px;
+          padding-left: 5px;
+        "
+        >|</span
+      >
+
+      <button
+        mat-icon-button
+        aria-label="Dashboard"
+        matTooltip="Dashboard"
+        routerLink="dashboard"
+      >
+        <mat-icon style="color: rgb(183, 177, 177);">dashboard</mat-icon>
+      </button>
+
+      <span
+        style="
+          color: rgb(183, 177, 177);
+          padding-right: 5px;
+          padding-left: 5px;
+        "
+        >|</span
+      >
+
+      <button
+        mat-icon-button
+        aria-label="Cadastrar"
+        matTooltip="Cadastrar"
+        routerLink="cadastro"
+      >
+        <mat-icon style="color: rgb(183, 177, 177);">add_home_work</mat-icon>
+      </button>
+
+      <span
+        style="
+          color: rgb(183, 177, 177);
+          padding-right: 5px;
+          padding-left: 5px;
+        "
+        >|</span
+      >
+
+      <button mat-icon-button aria-label="Reload" matTooltip="Carregar Página" (click)="reload()">
+        <mat-icon style="color: rgb(183, 177, 177);">restart_alt</mat-icon>
+      </button>
+      <span
+        style="
+          color: rgb(183, 177, 177);
+          padding-right: 5px;
+          padding-left: 5px;
+        "
+        >|</span
+      >
+      <button
+        mat-icon-button
+        matTooltip="Acessos"
+        [matMenuTriggerFor]="animals"
+        aria-label="Example icon-button with a menu"
+      >
+        <mat-icon style="color: rgb(183, 177, 177);">house</mat-icon>
+      </button>
+      <mat-menu #animals="matMenu">
+        <button mat-menu-item [matMenuTriggerFor]="oneportaria">
+          One Portaria
+        </button>
+        <button mat-menu-item [matMenuTriggerFor]="onesupport">
+          One Support
+        </button>
+      </mat-menu>
+
+      <mat-menu #oneportaria="matMenu">
+        <button color="primary" mat-menu-item (click)="portaexterna()">
+          Porta externa
+        </button>
+        <button mat-menu-item (click)="portacorredor()">Porta Corredor</button>
+      </mat-menu>
+
+      <mat-menu #onesupport="matMenu">
+        <button mat-menu-item>Porta externa</button>
+      </mat-menu>
+
+      <!-- ============= OPCAO ============ -->
+      <!-- <button mat-icon-button [matMenuTriggerFor]="menu" matTooltip="Opções">
+        <mat-icon style="color: rgb(183, 177, 177);">more_vert</mat-icon>
+      </button> -->
+    </mat-toolbar>
+    <div class="content">
+      <router-outlet></router-outlet>
+    </div>
+  </mat-sidenav-content>
+</mat-sidenav-container>
+
+<!-- ================== MENU =================== -->
+<mat-menu #menu="matMenu">
+  <button mat-menu-item routerLink="dashteste">
+    <mat-icon>logout</mat-icon>
+    <span class="menuprincipal">Desconectar</span>
+  </button>
+</mat-menu>

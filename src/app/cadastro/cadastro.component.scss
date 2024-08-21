@@ -1,0 +1,48 @@
+.full-width {
+  width: 100%;
+
+}
+
+.zica {
+  margin: 10px;
+}
+
+.shipping-card {
+  min-width: 120px;
+  margin: 20px auto;
+}
+
+.mat-radio-button {
+  display: block;
+  margin: 5px 0;
+}
+
+.row {
+  display: flex;
+  flex-direction: row;
+}
+
+.col {
+  flex: 1;
+  margin-right: 20px;
+}
+
+.col:last-child {
+  margin-right: 0;
+}
+
+::ng-deep .redNoMatch {
+  text-align: center;
+  --mdc-snackbar-container-color: #49ac4e;
+  --mat-mdc-snack-bar-button-color: black;
+  --mdc-snackbar-supporting-text-color: #ffff;
+  --mat-snack-bar-button-color: black;
+}
+
+::ng-deep .erroredNoMatch {
+  text-align: center;
+  --mdc-snackbar-container-color: #dc3545 !important;
+  --mat-mdc-snack-bar-button-color: black !important;
+  --mdc-snackbar-supporting-text-color: #ffff !important;
+  --mat-snack-bar-button-color: black;
+}

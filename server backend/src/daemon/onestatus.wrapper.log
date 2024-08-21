@@ -1,0 +1,4 @@
+2024-08-20 07:30:24 - Starting C:\Program Files\nodejs\node.exe  --harmony "C:\CENTRAL_IP\server backend\node_modules\node-windows\lib\wrapper.js" --file "C:\CENTRAL_IP\server backend\src\api.js" --scriptoptions= --log "OneStatus wrapper" --grow 0.25 --wait 1 --maxrestarts 3 --abortonerror n --stopparentfirst undefined
+2024-08-20 07:30:24 - Started 18680
+2024-08-20 07:30:35 - Starting C:\Program Files\nodejs\node.exe  --harmony "C:\CENTRAL_IP\server backend\node_modules\node-windows\lib\wrapper.js" --file "C:\CENTRAL_IP\server backend\src\api.js" --scriptoptions= --log "OneStatus wrapper" --grow 0.25 --wait 1 --maxrestarts 3 --abortonerror n --stopparentfirst undefined
+2024-08-20 07:30:35 - Started 11016

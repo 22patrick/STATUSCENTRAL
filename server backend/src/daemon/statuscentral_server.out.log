@@ -1,0 +1,621 @@
+Servidor rodando no endereço http://localhost:3000
+{ hd: 86, tempo: ' 65 days' }
+{ hd: 86, tempo: ' 65 days' }
+Servidor rodando no endereço http://localhost:3000
+Servidor rodando no endereço http://localhost:3000
+Servidor rodando no endereço http://localhost:3000
+{ hd: 86, tempo: ' 65 days' }
+{ hd: 86, tempo: ' 65 days' }
+{ hd: 86, tempo: ' 65 days' }
+{ hd: 86, tempo: ' 65 days' }
+Servidor rodando no endereço http://localhost:3000
+Servidor rodando no endereço http://localhost:3000
+Servidor rodando no endereço http://localhost:3000
+Servidor rodando no endereço http://localhost:3000
+Servidor rodando no endereço http://localhost:3000
+Servidor rodando no endereço http://localhost:3000
+Servidor rodando no endereço http://localhost:3000
+Servidor rodando no endereço http://localhost:3000
+Servidor rodando no endereço http://localhost:3000
+Servidor rodando no endereço http://localhost:3000
+Servidor rodando no endereço http://localhost:3000
+Servidor rodando no endereço http://localhost:3000
+Servidor rodando no endereço http://localhost:3000
+Servidor rodando no endereço http://localhost:3000
+Servidor rodando no endereço http://localhost:3000
+Servidor rodando no endereço http://localhost:3000
+Servidor rodando no endereço http://localhost:3000
+Connection error: 
+chamou novamente
+Servidor rodando no endereço http://localhost:3000
+Conexão efetuada
+Servidor rodando no endereço http://localhost:3000
+1º chamada
+Conexão efetuada
+Servidor rodando no endereço http://localhost:3000
+1º chamada
+Conexão efetuada
+Servidor rodando no endereço http://localhost:3000
+Conexão efetuada
+Servidor rodando no endereço http://localhost:3000
+[0;32mConexão com Mysql OK [0m
+Servidor rodando no endereço http://localhost:3000
+[1;31mErro ao conectar ao Mysql [0m
+[0;32mConexão com Mysql OK [0m
+Servidor rodando no endereço http://localhost:3000
+[0;32mConexão com Mysql OK [0m
+Servidor rodando no endereço http://localhost:3000
+[0;32mConexão com Mysql OK [0m
+Error: Invalid login: 534-5.7.9 Application-specific password required. For more information, go to
+534 5.7.9  https://support.google.com/mail/?p=InvalidSecondFactor a4-20020a17090acb8400b002973162eca1sm1902984pju.17 - gsmtp
+    at SMTPConnection._formatError (D:\CENTRAL_IP\server backend\node_modules\nodemailer\lib\smtp-connection\index.js:790:19)
+    at SMTPConnection._actionAUTHComplete (D:\CENTRAL_IP\server backend\node_modules\nodemailer\lib\smtp-connection\index.js:1564:34)
+    at SMTPConnection.<anonymous> (D:\CENTRAL_IP\server backend\node_modules\nodemailer\lib\smtp-connection\index.js:546:26)
+    at SMTPConnection._processResponse (D:\CENTRAL_IP\server backend\node_modules\nodemailer\lib\smtp-connection\index.js:969:20)
+    at SMTPConnection._onData (D:\CENTRAL_IP\server backend\node_modules\nodemailer\lib\smtp-connection\index.js:755:14)
+    at SMTPConnection._onSocketData (D:\CENTRAL_IP\server backend\node_modules\nodemailer\lib\smtp-connection\index.js:193:44)
+    at TLSSocket.emit (node:events:513:28)
+    at addChunk (node:internal/streams/readable:324:12)
+    at readableAddChunk (node:internal/streams/readable:297:9)
+    at Readable.push (node:internal/streams/readable:234:10) {
+  code: 'EAUTH',
+  response: '534-5.7.9 Application-specific password required. For more information, go to\n' +
+    '534 5.7.9  https://support.google.com/mail/?p=InvalidSecondFactor a4-20020a17090acb8400b002973162eca1sm1902984pju.17 - gsmtp',
+  responseCode: 534,
+  command: 'AUTH PLAIN'
+}
+Servidor rodando no endereço http://localhost:3000
+[0;32mConexão com Mysql OK [0m
+Servidor rodando no endereço http://localhost:3000
+[0;32mConexão com Mysql OK [0m
+Error: Invalid login: 534-5.7.9 Application-specific password required. For more information, go to
+534 5.7.9  https://support.google.com/mail/?p=InvalidSecondFactor t30-20020a62d15e000000b006e375ac0d8dsm2655002pfl.138 - gsmtp
+    at SMTPConnection._formatError (D:\CENTRAL_IP\server backend\node_modules\nodemailer\lib\smtp-connection\index.js:790:19)
+    at SMTPConnection._actionAUTHComplete (D:\CENTRAL_IP\server backend\node_modules\nodemailer\lib\smtp-connection\index.js:1564:34)
+    at SMTPConnection.<anonymous> (D:\CENTRAL_IP\server backend\node_modules\nodemailer\lib\smtp-connection\index.js:546:26)
+    at SMTPConnection._processResponse (D:\CENTRAL_IP\server backend\node_modules\nodemailer\lib\smtp-connection\index.js:969:20)
+    at SMTPConnection._onData (D:\CENTRAL_IP\server backend\node_modules\nodemailer\lib\smtp-connection\index.js:755:14)
+    at SMTPConnection._onSocketData (D:\CENTRAL_IP\server backend\node_modules\nodemailer\lib\smtp-connection\index.js:193:44)
+    at TLSSocket.emit (node:events:513:28)
+    at addChunk (node:internal/streams/readable:324:12)
+    at readableAddChunk (node:internal/streams/readable:297:9)
+    at Readable.push (node:internal/streams/readable:234:10) {
+  code: 'EAUTH',
+  response: '534-5.7.9 Application-specific password required. For more information, go to\n' +
+    '534 5.7.9  https://support.google.com/mail/?p=InvalidSecondFactor t30-20020a62d15e000000b006e375ac0d8dsm2655002pfl.138 - gsmtp',
+  responseCode: 534,
+  command: 'AUTH PLAIN'
+}
+Servidor rodando no endereço http://localhost:3000
+[0;32mConexão com Mysql OK [0m
+Servidor rodando no endereço http://localhost:3000
+[0;32mConexão com Mysql OK [0m
+Servidor rodando no endereço http://localhost:3000
+[0;32mConexão com Mysql OK [0m
+Servidor rodando no endereço http://localhost:3000
+[0;32mConexão com Mysql OK [0m
+Servidor rodando no endereço http://localhost:3000
+[0;32mConexão com Mysql OK [0m
+Servidor rodando no endereço http://localhost:3000
+[0;32mConexão com Mysql OK [0m
+Conexão Terminal Server encerrada...
+Conexão Terminal Server encerrada...
+Conexão Terminal Server encerrada...
+Conexão Terminal Server encerrada...
+Conexão Terminal Server encerrada...
+Servidor rodando no endereço http://localhost:3000
+[0;32mConexão com Mysql OK [0m
+Servidor rodando no endereço http://localhost:3000
+[0;32mConexão com Mysql OK [0m
+Servidor rodando no endereço http://localhost:3000
+[0;32mConexão com Mysql OK [0m
+Servidor rodando no endereço http://localhost:3000
+[1;31mErro ao conectar ao Mysql [0m
+[0;32mConexão com Mysql OK [0m
+Servidor rodando no endereço http://localhost:3000
+[0;32mConexão com Mysql OK [0m
+Conexão Terminal Server encerrada...
+Conexão Terminal Server encerrada...
+Conexão Terminal Server encerrada...
+Conexão Terminal Server encerrada...
+Servidor rodando no endereço http://localhost:3000
+[0;32mConexão com Mysql OK [0m
+Servidor rodando no endereço http://localhost:3000
+[0;32mConexão com Mysql OK [0m
+Servidor rodando no endereço http://localhost:3000
+[0;32mConexão com Mysql OK [0m
+iniciaqndo conexão TS
+iniciaqndo conexão TS
+Conexão Terminal Server encerrada...
+Servidor rodando no endereço http://localhost:3000
+[0;32mConexão com Mysql OK [0m
+iniciaqndo conexão TS
+Servidor rodando no endereço http://localhost:3000
+[0;32mConexão com Mysql OK [0m
+iniciaqndo conexão TS
+Servidor rodando no endereço http://localhost:3000
+[0;32mConexão com Mysql OK [0m
+iniciaqndo conexão TS
+Servidor rodando no endereço http://localhost:3000
+[0;32mConexão com Mysql OK [0m
+iniciaqndo conexão TS
+Servidor rodando no endereço http://localhost:3000
+[0;32mConexão com Mysql OK [0m
+Servidor rodando no endereço http://localhost:3000
+[0;32mConexão com Mysql OK [0m
+iniciaqndo conexão TS
+Conexão Terminal Server encerrada...
+iniciaqndo conexão TS
+Conexão Terminal Server encerrada...
+Servidor rodando no endereço http://localhost:3000
+[0;32mConexão com Mysql OK [0m
+iniciaqndo conexão TS
+Servidor rodando no endereço http://localhost:3000
+[0;32mConexão com Mysql OK [0m
+iniciaqndo conexão TS
+Servidor rodando no endereço http://localhost:3000
+[0;32mConexão com Mysql OK [0m
+iniciaqndo conexão TS
+Servidor rodando no endereço http://localhost:3000
+[0;32mConexão com Mysql OK [0m
+iniciaqndo conexão TS
+Servidor rodando no endereço http://localhost:3000
+[0;32mConexão com Mysql OK [0m
+iniciaqndo conexão TS
+Servidor rodando no endereço http://localhost:3000
+[1;31mErro ao conectar ao Mysql [0m
+[0;32mConexão com Mysql OK [0m
+Servidor rodando no endereço http://localhost:3000
+[1;31mErro ao conectar ao Mysql [0m
+[0;32mConexão com Mysql OK [0m
+Servidor rodando no endereço http://localhost:3000
+[1;31mErro ao conectar ao Mysql [0m
+[0;32mConexão com Mysql OK [0m
+Servidor rodando no endereço http://localhost:3000
+[1;31mErro ao conectar ao Mysql [0m
+[0;32mConexão com Mysql OK [0m
+Servidor rodando no endereço http://localhost:3000
+[1;31mErro ao conectar ao Mysql [0m
+[0;32mConexão com Mysql OK [0m
+Servidor rodando no endereço http://localhost:3000
+[1;31mErro ao conectar ao Mysql [0m
+[0;32mConexão com Mysql OK [0m
+Servidor rodando no endereço http://localhost:3000
+[0;32mConexão com Mysql OK [0m
+Servidor rodando no endereço http://localhost:3000
+[0;32mConexão com Mysql OK [0m
+Servidor rodando no endereço http://localhost:3000
+[1;31mErro ao conectar ao Mysql [0m
+[0;32mConexão com Mysql OK [0m
+Servidor rodando no endereço http://localhost:3000
+[1;31mErro ao conectar ao Mysql [0m
+[0;32mConexão com Mysql OK [0m
+Servidor rodando no endereço http://localhost:3000
+[1;31mErro ao conectar ao Mysql [0m
+[0;32mConexão com Mysql OK [0m
+Servidor rodando no endereço http://localhost:3000
+[1;31mErro ao conectar ao Mysql [0m
+[0;32mConexão com Mysql OK [0m
+Servidor rodando no endereço http://localhost:3000
+[1;31mErro ao conectar ao Mysql [0m
+[0;32mConexão com Mysql OK [0m
+Servidor rodando no endereço http://localhost:3000
+[1;31mErro ao conectar ao Mysql [0m
+[0;32mConexão com Mysql OK [0m
+Servidor rodando no endereço http://localhost:3000
+[1;31mErro ao conectar ao Mysql [0m
+[0;32mConexão com Mysql OK [0m
+Servidor rodando no endereço http://localhost:3000
+[1;31mErro ao conectar ao Mysql [0m
+[0;32mConexão com Mysql OK [0m
+Servidor rodando no endereço http://localhost:3000
+[1;31mErro ao conectar ao Mysql [0m
+[0;32mConexão com Mysql OK [0m
+Servidor rodando no endereço http://localhost:3000
+[1;31mErro ao conectar ao Mysql [0m
+[0;32mConexão com Mysql OK [0m
+Servidor rodando no endereço http://localhost:3000
+[1;31mErro ao conectar ao Mysql [0m
+[0;32mConexão com Mysql OK [0m
+Servidor rodando no endereço http://localhost:3000
+[0;32mConexão com Mysql OK [0m
+Servidor rodando no endereço http://localhost:3000
+[0;32mConexão com Mysql OK [0m
+Servidor rodando no endereço http://localhost:3000
+[0;32mConexão com Mysql OK [0m
+Servidor rodando no endereço http://localhost:3000
+[0;32mConexão com Mysql OK [0m
+Servidor rodando no endereço http://localhost:3000
+[0;32mConexão com Mysql OK [0m
+Servidor rodando no endereço http://localhost:3000
+[0;32mConexão com Mysql OK [0m
+Servidor rodando no endereço http://localhost:3000
+[0;32mConexão com Mysql OK [0m
+Servidor rodando no endereço http://localhost:3000
+[0;32mConexão com Mysql OK [0m
+Servidor rodando no endereço http://localhost:3000
+[0;32mConexão com Mysql OK [0m
+Servidor rodando no endereço http://localhost:3000
+[0;32mConexão com Mysql OK [0m
+Servidor rodando no endereço http://localhost:3000
+[0;32mConexão com Mysql OK [0m
+Servidor rodando no endereço http://localhost:3000
+[1;31mErro ao conectar ao Mysql [0m
+[0;32mConexão com Mysql OK [0m
+Servidor rodando no endereço http://localhost:3000
+[0;32mConexão com Mysql OK [0m
+Servidor rodando no endereço http://localhost:3000
+[0;32mConexão com Mysql OK [0m
+Servidor rodando no endereço http://localhost:3000
+[0;32mConexão com Mysql OK [0m
+Servidor rodando no endereço http://localhost:3000
+[0;32mConexão com Mysql OK [0m
+Servidor rodando no endereço http://localhost:3000
+[0;32mConexão com Mysql OK [0m
+Servidor rodando no endereço http://localhost:3000
+[0;32mConexão com Mysql OK [0m
+Servidor rodando no endereço http://localhost:3000
+[0;32mConexão com Mysql OK [0m
+Servidor rodando no endereço http://localhost:3000
+[0;32mConexão com Mysql OK [0m
+Servidor rodando no endereço http://localhost:3000
+[0;32mConexão com Mysql OK [0m
+Servidor rodando no endereço http://localhost:3000
+[1;31mErro ao conectar ao Mysql [0m
+[0;32mConexão com Mysql OK [0m
+Servidor rodando no endereço http://localhost:3000
+[1;31mErro ao conectar ao Mysql [0m
+[0;32mConexão com Mysql OK [0m
+Servidor rodando no endereço http://localhost:3000
+[1;31mErro ao conectar ao Mysql [0m
+[0;32mConexão com Mysql OK [0m
+Servidor rodando no endereço http://localhost:3000
+[1;31mErro ao conectar ao Mysql [0m
+[0;32mConexão com Mysql OK [0m
+Servidor rodando no endereço http://localhost:3000
+[1;31mErro ao conectar ao Mysql [0m
+[0;32mConexão com Mysql OK [0m
+Servidor rodando no endereço http://localhost:3000
+[1;31mErro ao conectar ao Mysql [0m
+[0;32mConexão com Mysql OK [0m
+Servidor rodando no endereço http://localhost:3000
+[1;31mErro ao conectar ao Mysql [0m
+[0;32mConexão com Mysql OK [0m
+Servidor rodando no endereço http://localhost:3000
+[1;31mErro ao conectar ao Mysql [0m
+[0;32mConexão com Mysql OK [0m
+Servidor rodando no endereço http://localhost:3000
+[1;31mErro ao conectar ao Mysql [0m
+[0;32mConexão com Mysql OK [0m
+Servidor rodando no endereço http://localhost:3000
+[1;31mErro ao conectar ao Mysql [0m
+[0;32mConexão com Mysql OK [0m
+Servidor rodando no endereço http://localhost:3000
+[1;31mErro ao conectar ao Mysql [0m
+[0;32mConexão com Mysql OK [0m
+Servidor rodando no endereço http://localhost:3000
+[0;32mConexão com Mysql OK [0m
+Servidor rodando no endereço http://localhost:3000
+[0;32mConexão com Mysql OK [0m
+Servidor rodando no endereço http://localhost:3000
+[0;32mConexão com Mysql OK [0m
+Servidor rodando no endereço http://localhost:3000
+[0;32mConexão com Mysql OK [0m
+Servidor rodando no endereço http://localhost:3000
+[1;31mErro ao conectar ao Mysql [0m
+[0;32mConexão com Mysql OK [0m
+1
+1
+1
+1
+1
+1
+Servidor rodando no endereço http://localhost:3000
+[0;32mConexão com Mysql OK [0m
+1
+Servidor rodando no endereço http://localhost:3000
+[1;31mErro ao conectar ao Mysql [0m
+[0;32mConexão com Mysql OK [0m
+1
+Servidor rodando no endereço http://localhost:3000
+[1;31mErro ao conectar ao Mysql [0m
+[0;32mConexão com Mysql OK [0m
+Servidor rodando no endereço http://localhost:3000
+[1;31mErro ao conectar ao Mysql [0m
+[0;32mConexão com Mysql OK [0m
+Servidor rodando no endereço http://localhost:3000
+[1;31mErro ao conectar ao Mysql [0m
+[0;32mConexão com Mysql OK [0m
+Servidor rodando no endereço http://localhost:3000
+[1;31mErro ao conectar ao Mysql [0m
+[0;32mConexão com Mysql OK [0m
+Servidor rodando no endereço http://localhost:3000
+[1;31mErro ao conectar ao Mysql [0m
+[0;32mConexão com Mysql OK [0m
+Servidor rodando no endereço http://localhost:3000
+[1;31mErro ao conectar ao Mysql [0m
+[0;32mConexão com Mysql OK [0m
+Servidor rodando no endereço http://localhost:3000
+[1;31mErro ao conectar ao Mysql [0m
+[0;32mConexão com Mysql OK [0m
+Servidor rodando no endereço http://localhost:3000
+[1;31mErro ao conectar ao Mysql [0m
+[0;32mConexão com Mysql OK [0m
+Servidor rodando no endereço http://localhost:3000
+[1;31mErro ao conectar ao Mysql [0m
+[0;32mConexão com Mysql OK [0m
+Servidor rodando no endereço http://localhost:3000
+[1;31mErro ao conectar ao Mysql [0m
+[0;32mConexão com Mysql OK [0m
+Servidor rodando no endereço http://localhost:3000
+[0;32mConexão com Mysql OK [0m
+Servidor rodando no endereço http://localhost:3000
+[1;31mErro ao conectar ao Mysql [0m
+[0;32mConexão com Mysql OK [0m
+Servidor rodando no endereço http://localhost:3000
+[1;31mErro ao conectar ao Mysql [0m
+chegou no email
+[0;32mConexão com Mysql OK [0m
+Servidor rodando no endereço http://localhost:3000
+[0;32mConexão com Mysql OK [0m
+chegou no email
+Email sent: 250 2.0.0 OK  1716291586 d9443c01a7336-1ef0c13685asm220294545ad.250 - gsmtp
+Email sent: 250 2.0.0 OK  1716291586 d9443c01a7336-1ef0c25698csm225355055ad.305 - gsmtp
+Servidor rodando no endereço http://localhost:3000
+[0;32mConexão com Mysql OK [0m
+chegou no email
+Email sent: 250 2.0.0 OK  1716291670 41be03b00d2f7-6340b769197sm18147018a12.24 - gsmtp
+Email sent: 250 2.0.0 OK  1716291670 d9443c01a7336-1ef0badcf69sm220296645ad.113 - gsmtp
+Servidor rodando no endereço http://localhost:3000
+[0;32mConexão com Mysql OK [0m
+chegou no email
+Email sent: 250 2.0.0 OK  1716292733 d9443c01a7336-1ef0b9d47e0sm219985635ad.5 - gsmtp
+Email sent: 250 2.0.0 OK  1716292734 d9443c01a7336-1f30f1ddb65sm11389285ad.288 - gsmtp
+Email sent: 250 2.0.0 OK  1716292734 d9443c01a7336-1f301372b7asm35093585ad.298 - gsmtp
+Servidor rodando no endereço http://localhost:3000
+[1;31mErro ao conectar ao Mysql [0m
+chegou no email
+[0;32mConexão com Mysql OK [0m
+Servidor rodando no endereço http://localhost:3000
+[0;32mConexão com Mysql OK [0m
+chegou no email
+Email sent: 250 2.0.0 OK  1716394853 d2e1a72fcca58-6f6608586e2sm16047521b3a.85 - gsmtp
+Email sent: 250 2.0.0 OK  1716394853 d9443c01a7336-1ef0bad7dc1sm241079895ad.89 - gsmtp
+Email sent: 250 2.0.0 OK  1716394853 d9443c01a7336-1ef0c136838sm242011535ad.232 - gsmtp
+Servidor rodando no endereço http://localhost:3000
+[0;32mConexão com Mysql OK [0m
+chegou no email
+Email sent: 250 2.0.0 OK  1716395013 d9443c01a7336-1ef0c264479sm240259655ad.292 - gsmtp
+Email sent: 250 2.0.0 OK  1716395073 d2e1a72fcca58-6f4d2b02329sm22626024b3a.181 - gsmtp
+Email sent: 250 2.0.0 OK  1716395073 98e67ed59e1d1-2b67126ad51sm23948089a91.25 - gsmtp
+Servidor rodando no endereço http://localhost:3000
+[0;32mConexão com Mysql OK [0m
+chegou no email
+Email sent: 250 2.0.0 OK  1716395254 98e67ed59e1d1-2b671782dcesm26182206a91.53 - gsmtp
+Email sent: 250 2.0.0 OK  1716395257 d9443c01a7336-1ef0c137f14sm241198755ad.259 - gsmtp
+Servidor rodando no endereço http://localhost:3000
+[1;31mErro ao conectar ao Mysql [0m
+chegou no email
+[0;32mConexão com Mysql OK [0m
+Servidor rodando no endereço http://localhost:3000
+[0;32mConexão com Mysql OK [0m
+chegou no email
+Email sent: 250 2.0.0 OK  1716404838 41be03b00d2f7-660ab682716sm8967981a12.88 - gsmtp
+Email sent: 250 2.0.0 OK  1716404838 98e67ed59e1d1-2bdda0587dfsm118034a91.52 - gsmtp
+chegou no email
+Email sent: 250 2.0.0 OK  1716491222 d9443c01a7336-1ef0c138b85sm259556595ad.268 - gsmtp
+Email sent: 250 2.0.0 OK  1716491222 98e67ed59e1d1-2bde078426bsm1175509a91.0 - gsmtp
+Servidor rodando no endereço http://localhost:3000
+[1;31mErro ao conectar ao Mysql [0m
+chegou no email
+[0;32mConexão com Mysql OK [0m
+Servidor rodando no endereço http://localhost:3000
+[1;31mErro ao conectar ao Mysql [0m
+chegou no email
+[0;32mConexão com Mysql OK [0m
+1
+chegou no email
+Error: getaddrinfo ENOTFOUND smtp.gmail.com
+    at GetAddrInfoReqWrap.onlookupall [as oncomplete] (node:dns:118:26) {
+  errno: -3008,
+  code: 'EDNS',
+  syscall: 'getaddrinfo',
+  hostname: 'smtp.gmail.com',
+  command: 'CONN'
+}
+Error: getaddrinfo ENOTFOUND smtp.gmail.com
+    at GetAddrInfoReqWrap.onlookupall [as oncomplete] (node:dns:118:26) {
+  errno: -3008,
+  code: 'EDNS',
+  syscall: 'getaddrinfo',
+  hostname: 'smtp.gmail.com',
+  command: 'CONN'
+}
+Servidor rodando no endereço http://localhost:3000
+[0;32mConexão com Mysql OK [0m
+chegou no email
+Email sent: 250 2.0.0 OK  1716845810 98e67ed59e1d1-2bf5f50c69csm6328742a91.14 - gsmtp
+Email sent: 250 2.0.0 OK  1716845811 d9443c01a7336-1f46c83466bsm46816325ad.191 - gsmtp
+Servidor rodando no endereço http://localhost:3000
+[0;32mConexão com Mysql OK [0m
+Email sent: 250 2.0.0 OK  1716917027 98e67ed59e1d1-2c011c072f1sm1517994a91.0 - gsmtp
+Email sent: 250 2.0.0 OK  1716917028 41be03b00d2f7-682229de01bsm7699731a12.54 - gsmtp
+Email sent: 250 2.0.0 OK  1716917028 98e67ed59e1d1-2bfcf58f111sm4041325a91.27 - gsmtp
+Servidor rodando no endereço http://localhost:3000
+[0;32mConexão com Mysql OK [0m
+Email sent: 250 2.0.0 OK  1716931716 d2e1a72fcca58-6f8fbe34e6fsm6864228b3a.5 - gsmtp
+Email sent: 250 2.0.0 OK  1716931716 d2e1a72fcca58-701c7969868sm1593201b3a.26 - gsmtp
+Email sent: 250 2.0.0 OK  1716931716 d9443c01a7336-1f44c9683efsm86957205ad.130 - gsmtp
+Servidor rodando no endereço http://localhost:3000
+[0;32mConexão com Mysql OK [0m
+Email sent: 250 2.0.0 OK  1716932412 98e67ed59e1d1-2bf5f6136d6sm8232149a91.30 - gsmtp
+Email sent: 250 2.0.0 OK  1716932413 d9443c01a7336-1f47596cad5sm62329315ad.254 - gsmtp
+Email sent: 250 2.0.0 OK  1716932413 d9443c01a7336-1f48a2a7627sm51134315ad.61 - gsmtp
+Servidor rodando no endereço http://localhost:3000
+[0;32mConexão com Mysql OK [0m
+Email sent: 250 2.0.0 OK  1716932571 d9443c01a7336-1f44c970058sm87610845ad.121 - gsmtp
+Email sent: 250 2.0.0 OK  1716932572 d2e1a72fcca58-6f8fc05e08bsm6844052b3a.52 - gsmtp
+Email sent: 250 2.0.0 OK  1716932572 d9443c01a7336-1f4b412a5fesm34603705ad.239 - gsmtp
+Servidor rodando no endereço http://localhost:3000
+[0;32mConexão com Mysql OK [0m
+Email sent: 250 2.0.0 OK  1716932690 d9443c01a7336-1f44c9e0984sm87574985ad.305 - gsmtp
+Email sent: 250 2.0.0 OK  1716932691 98e67ed59e1d1-2bf5f61272fsm8288459a91.27 - gsmtp
+Email sent: 250 2.0.0 OK  1716932691 d2e1a72fcca58-6f8fd4e36f9sm7276772b3a.216 - gsmtp
+Error: connect EHOSTUNREACH 142.250.0.108:465
+    at TCPConnectWrap.afterConnect [as oncomplete] (node:net:1494:16) {
+  errno: -4073,
+  code: 'ESOCKET',
+  syscall: 'connect',
+  address: '142.250.0.108',
+  port: 465,
+  command: 'CONN'
+}
+Servidor rodando no endereço http://localhost:3000
+[1;31mErro ao conectar ao Mysql [0m
+[0;32mConexão com Mysql OK [0m
+1
+Servidor rodando no endereço http://localhost:3000
+[0;32mConexão com Mysql OK [0m
+Email sent: 250 2.0.0 OK  1718035175 d9443c01a7336-1f6d872bd4bsm63850525ad.208 - gsmtp
+Servidor rodando no endereço http://localhost:3000
+[0;32mConexão com Mysql OK [0m
+Email sent: 250 2.0.0 OK  1718051102 d2e1a72fcca58-705a5c1eea2sm622894b3a.171 - gsmtp
+Servidor rodando no endereço http://localhost:3000
+[1;31mErro ao conectar ao Mysql [0m
+[0;32mConexão com Mysql OK [0m
+Servidor rodando no endereço http://localhost:3000
+[1;31mErro ao conectar ao Mysql [0m
+[0;32mConexão com Mysql OK [0m
+Servidor rodando no endereço http://localhost:3000
+[1;31mErro ao conectar ao Mysql [0m
+[0;32mConexão com Mysql OK [0m
+Servidor rodando no endereço http://localhost:3000
+[0;32mConexão com Mysql OK [0m
+Email sent: 250 2.0.0 OK  1718374342 d9443c01a7336-1f855f2e281sm32373225ad.254 - gsmtp
+1
+Servidor rodando no endereço http://localhost:3000
+[0;32mConexão com Mysql OK [0m
+Servidor rodando no endereço http://localhost:3000
+[0;32mConexão com Mysql OK [0m
+Email sent: 250 2.0.0 OK  1718384645 41be03b00d2f7-6fede53d188sm2463153a12.36 - gsmtp
+Servidor rodando no endereço http://localhost:3000
+[1;31mErro ao conectar ao Mysql [0m
+[0;32mConexão com Mysql OK [0m
+Servidor rodando no endereço http://localhost:3000
+[0;32mConexão com Mysql OK [0m
+Email sent: 250 2.0.0 OK  1718623204 d9443c01a7336-1f855e55c75sm77840575ad.2 - gsmtp
+Servidor rodando no endereço http://localhost:3000
+[0;32mConexão com Mysql OK [0m
+Email sent: 250 2.0.0 OK  1718623277 d2e1a72fcca58-705cc96cd55sm7134002b3a.80 - gsmtp
+Servidor rodando no endereço http://localhost:3000
+[1;31mErro ao conectar ao Mysql [0m
+[0;32mConexão com Mysql OK [0m
+Servidor rodando no endereço http://localhost:3000
+[1;31mErro ao conectar ao Mysql [0m
+[0;32mConexão com Mysql OK [0m
+Servidor rodando no endereço http://localhost:3000
+[1;31mErro ao conectar ao Mysql [0m
+[0;32mConexão com Mysql OK [0m
+Servidor rodando no endereço http://localhost:3000
+[1;31mErro ao conectar ao Mysql [0m
+[0;32mConexão com Mysql OK [0m
+1
+1
+Servidor rodando no endereço http://localhost:3000
+[1;31mErro ao conectar ao Mysql [0m
+[0;32mConexão com Mysql OK [0m
+Servidor rodando no endereço http://localhost:3000
+[1;31mErro ao conectar ao Mysql [0m
+[0;32mConexão com Mysql OK [0m
+Servidor rodando no endereço http://localhost:3000
+[1;31mErro ao conectar ao Mysql [0m
+[0;32mConexão com Mysql OK [0m
+Servidor rodando no endereço http://localhost:3000
+[0;32mConexão com Mysql OK [0m
+Servidor rodando no endereço http://localhost:3000
+[0;32mConexão com Mysql OK [0m
+Servidor rodando no endereço http://localhost:3000
+[0;32mConexão com Mysql OK [0m
+Servidor rodando no endereço http://localhost:3000
+[0;32mConexão com Mysql OK [0m
+Servidor rodando no endereço http://localhost:3000
+[1;31mErro ao conectar ao Mysql [0m
+[0;32mConexão com Mysql OK [0m
+Servidor rodando no endereço http://localhost:3000
+[0;32mConexão com Mysql OK [0m
+Email sent: 250 2.0.0 OK  1720524445 d9443c01a7336-1fbb6a11757sm14018095ad.35 - gsmtp
+Email sent: 250 2.0.0 OK  1720610832 41be03b00d2f7-77d680cac3asm2768233a12.79 - gsmtp
+Servidor rodando no endereço http://localhost:3000
+[0;32mConexão com Mysql OK [0m
+Servidor rodando no endereço http://localhost:3000
+[1;31mErro ao conectar ao Mysql [0m
+[0;32mConexão com Mysql OK [0m
+Servidor rodando no endereço http://localhost:3000
+[1;31mErro ao conectar ao Mysql [0m
+[0;32mConexão com Mysql OK [0m
+1
+Servidor rodando no endereço http://localhost:3000
+[0;32mConexão com Mysql OK [0m
+Servidor rodando no endereço http://localhost:3000
+[0;32mConexão com Mysql OK [0m
+1
+1
+1
+1
+Servidor rodando no endereço http://localhost:3000
+[1;31mErro ao conectar ao Mysql [0m
+[0;32mConexão com Mysql OK [0m
+Servidor rodando no endereço http://localhost:3000
+[1;31mErro ao conectar ao Mysql [0m
+[0;32mConexão com Mysql OK [0m
+Servidor rodando no endereço http://localhost:3000
+[0;32mConexão com Mysql OK [0m
+Servidor rodando no endereço http://localhost:3000
+[0;32mConexão com Mysql OK [0m
+Servidor rodando no endereço http://localhost:3000
+[0;32mConexão com Mysql OK [0m
+Servidor rodando no endereço http://localhost:3000
+[0;32mConexão com Mysql OK [0m
+Servidor rodando no endereço http://localhost:3000
+[0;32mConexão com Mysql OK [0m
+Servidor rodando no endereço http://localhost:3000
+[0;32mConexão com Mysql OK [0m
+Servidor rodando no endereço http://localhost:3000
+[0;32mConexão com Mysql OK [0m
+Servidor rodando no endereço http://localhost:3000
+[0;32mConexão com Mysql OK [0m
+Servidor rodando no endereço http://localhost:3000
+[0;32mConexão com Mysql OK [0m
+Servidor rodando no endereço http://localhost:3000
+[0;32mConexão com Mysql OK [0m
+Servidor rodando no endereço http://localhost:3000
+[0;32mConexão com Mysql OK [0m
+Servidor rodando no endereço http://localhost:3000
+[0;32mConexão com Mysql OK [0m
+Servidor rodando no endereço http://localhost:3000
+[0;32mConexão com Mysql OK [0m
+Servidor rodando no endereço http://localhost:3000
+[0;32mConexão com Mysql OK [0m
+Servidor rodando no endereço http://localhost:3000
+[0;32mConexão com Mysql OK [0m
+Servidor rodando no endereço http://localhost:3000
+[0;32mConexão com Mysql OK [0m
+Servidor rodando no endereço http://localhost:3000
+[1;31mErro ao conectar ao Mysql [0m
+[0;32mConexão com Mysql OK [0m
+Servidor rodando no endereço http://localhost:3000
+[0;32mConexão com Mysql OK [0m
+Servidor rodando no endereço http://localhost:3000
+[0;32mConexão com Mysql OK [0m
+Servidor rodando no endereço http://localhost:3000
+[0;32mConexão com Mysql OK [0m
+Servidor rodando no endereço http://localhost:3000
+[0;32mConexão com Mysql OK [0m
+Email sent: 250 2.0.0 OK  1722941364 d9443c01a7336-1ff59176c89sm84649005ad.192 - gsmtp
+Servidor rodando no endereço http://localhost:3000
+[1;31mErro ao conectar ao Mysql [0m
+[0;32mConexão com Mysql OK [0m
+Servidor rodando no endereço http://localhost:3000
+[0;32mConexão com Mysql OK [0m
+Servidor rodando no endereço http://localhost:3000
+[0;32mConexão com Mysql OK [0m

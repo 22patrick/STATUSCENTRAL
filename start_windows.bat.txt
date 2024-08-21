@@ -1,0 +1,1 @@
+sc create CentralIp binPath="\"C:\Program Files\nodejs\node.exe\"  \"D:\CENTRAL_IP\central_ip\service.js\"" start=auto

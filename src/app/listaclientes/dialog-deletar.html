@@ -1,0 +1,30 @@
+<div style="text-align: center; padding-top: 25px;">
+  
+  <!-- <h3 mat-dialog-title style="font-family: cursive; color: blueviolet;">Alerta!</h3> -->
+
+  <img
+    style="color: red;"
+    src="/assets/img/Icon_delete2.png"
+    width="90"
+    height="90"
+  />
+
+  <mat-dialog-content>
+    Deseja deletar
+    <span>({{data.empresa}})</span>
+    ?
+  </mat-dialog-content>
+  <mat-dialog-actions align="end">
+    <button
+      class="btn"
+      mat-stroked-button
+      mat-dialog-close
+      (click)="deletar(data.id)"
+    >
+      Sim
+    </button>
+    <button mat-stroked-button mat-dialog-close cdkFocusInitial class="btn2">
+      Não
+    </button>
+  </mat-dialog-actions>
+</div>

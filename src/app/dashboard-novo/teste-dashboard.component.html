@@ -1,0 +1,161 @@
+<!-- <script
+  src="http://ajax.googleapis.com/ajax/libs/jquery/1.7.1/jquery.min.js"
+  type="text/javascript"
+></script> -->
+<mat-card style="height: min-content; background-color: black;">
+  <mat-grid-list cols="5" rowHeight="170">
+    <mat-grid-tile *ngFor="let aqui of dados">
+      <mat-card class="example-card" id="{{aqui.hd}}" style="height: 100%;"
+        style="align-items: center; text-align: center;">
+
+        <mat-card-header>
+          <mat-card-title id="{{aqui.hd + 1}}">
+            {{aqui.empresa}}
+          </mat-card-title>
+        </mat-card-header>
+
+        <!-- <mat-divider></mat-divider> -->
+        <mat-divider></mat-divider>
+        <div class="cortexto">
+          <span matTooltip="Opções" [matMenuTriggerFor]="menu" class="material-icons-outlined">
+            arrow_drop_down
+          </span>
+          <mat-card-subtitle>
+            <span class="processador"> Cpu:
+              {{aqui.processador}}%</span>
+          </mat-card-subtitle>
+          <mat-card-subtitle>{{aqui.hd}}% DISCO EM USO </mat-card-subtitle>
+          <mat-progress-bar mode="determinate" value="{{aqui.hd}}"></mat-progress-bar>
+        </div>
+        <mat-card-content> </mat-card-content>
+
+        <!-- ========================= MENU ================================== -->
+        <mat-menu #menu="matMenu" xPosition="before">
+          <button mat-menu-item (click)="reiniciarCentral(aqui.ip)">
+            <mat-icon>restart_alt</mat-icon>
+            Reiniciar
+          </button>
+          <mat-divider></mat-divider>
+          <button mat-menu-item (click)="amportal(aqui.ip)">
+            <mat-icon>emergency</mat-icon>
+            Amportal
+          </button>
+          <mat-divider></mat-divider>
+          <button mat-menu-item (click)="amportal(aqui.ip)" [matMenuTriggerFor]="invertebrates">
+            <mat-icon>info</mat-icon>
+            Status
+          </button>
+          <mat-menu #invertebrates="matMenu" class="tempo">
+            <button mat-menu-item><span class="tempo">{{aqui.ip}}</span></button>
+            <button mat-menu-item><span class="tempo">{{aqui.tempo}} Ligado </span></button>
+            <button mat-menu-item><span class="tempo">Down: {{aqui.down}} - Up:
+                {{aqui.up}}</span></button>
+          </mat-menu>
+        </mat-menu>
+        <!-- =============================================================== -->
+      </mat-card>
+    </mat-grid-tile>
+  </mat-grid-list>
+</mat-card>
+<!-- ===================================== BKP CODIGO ANTIGO ====================================== -->
+
+<!-- <div class="grid-container"> -->
+<!-- <h1 class="mat-h1">Dashboard</h1> -->
+<!-- <mat-grid-list
+  cols="5"
+  rowHeight="170px"
+>
+  <mat-grid-tile *ngFor="let aqui of dados">
+    <mat-card
+      class="dashboard-card"
+      style="text-align: left; align-items: center;"
+    >
+      <mat-card-header>
+        <span
+          class="empheader"
+          matTooltipClass="multiline-tooltip"
+          Multiline
+          tooltip
+          matTooltip="{{aqui.empresa}}"
+          >{{aqui.empresa}}</span
+        >
+      </mat-card-header>
+      <mat-card-title>
+        <button
+          mat-icon-button
+          class="more-button"
+          matTooltip="Opções"
+          [matMenuTriggerFor]="menu"
+          aria-label="Toggle menu"
+        >
+          <span class="material-icons-outlined">
+            arrow_drop_down
+          </span>
+        </button>
+        <mat-menu #menu="matMenu" xPosition="before">
+          <button mat-menu-item (click)="reiniciarCentral(aqui.ip)">
+            <mat-icon>restart_alt</mat-icon>
+            Reiniciar
+          </button>
+          <mat-divider></mat-divider>
+          <button mat-menu-item (click)="amportal(aqui.ip)">
+            <mat-icon>emergency</mat-icon>
+            Amportal
+          </button>
+        </mat-menu>
+      </mat-card-title>
+      <mat-card-subtitle style="font-size: 14px;"
+        >Ip: {{aqui.ip}}</mat-card-subtitle
+      >
+
+      <mat-card-subtitle style="font-size: 14px;"
+        ><span style="color: rgb(9, 9, 139);">{{aqui.tempo}}</span>
+        Ligado - Cpu: {{aqui.processador}}%
+      </mat-card-subtitle>
+
+      <mat-card-subtitle style="font-size: 14px;"
+        ><span style="color: rgb(153, 104, 104);"
+          >Down: {{aqui.down}} - Up: {{aqui.up}}</span
+        >
+      </mat-card-subtitle>
+
+      <mat-card-subtitle
+        ><span>{{aqui.hd}}%</span> do disco em uso</mat-card-subtitle
+      >
+
+      <mat-card-title
+        style="
+          color: rgb(223, 70, 70);
+          font-size: 14px;
+          align-items: center;
+          text-align: center;
+          margin: 0px;
+        "
+        *ngIf="aqui.hd >= 80"
+      >
+        Atenção disco cheio!!!</mat-card-title
+      >
+    </mat-card>
+  </mat-grid-tile>
+</mat-grid-list> -->
+<!-- <mat-grid-list style="border: 1px solid red;">
+  <mat-card class="example-card">
+    <mat-card-header *ngFor="let aqui of dados">
+      <div mat-card-avatar class="example-header-image"></div>
+      <mat-card-title>{{aqui.empresa}}</mat-card-title>
+      <mat-card-subtitle>Dog Breed</mat-card-subtitle>
+    </mat-card-header>
+    <img mat-card-image src="https://material.angular.io/assets/img/examples/shiba2.jpg" alt="Photo of a Shiba Inu">
+    <mat-card-content>
+      <p>
+        The Shiba Inu is the smallest of the six original and distinct spitz breeds of dog from Japan.
+        A small, agile dog that copes very well with mountainous terrain, the Shiba Inu was originally
+        bred for hunting.
+      </p>
+    </mat-card-content>
+    <mat-card-actions>
+      <button mat-button>LIKE</button>
+      <button mat-button>SHARE</button>
+    </mat-card-actions>
+  </mat-card>
+</mat-grid-list> -->

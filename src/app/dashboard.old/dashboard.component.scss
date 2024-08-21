@@ -1,0 +1,19 @@
+html,
+body {
+  height: 100%;
+}
+
+body {
+  margin: 0;
+  font-family: Roboto, "Helvetica Neue", sans-serif;
+  background-color: #fafafa;
+}
+
+mat-form-field {
+  margin-right: 12px;
+}
+::ng-deep .redNoMatch {
+  --mdc-snackbar-container-color: rgb(168, 14, 14);
+  --mat-mdc-snack-bar-button-color: black;
+  --mdc-snackbar-supporting-text-color: #fff;
+}

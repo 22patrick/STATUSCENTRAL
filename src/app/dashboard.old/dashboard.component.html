@@ -1,0 +1,70 @@
+<!-- <h2 style="padding: 10px;">Dashboard</h2> -->
+<div
+  class="content"
+  fxLayout="row 4"
+  fxFlexAlign="start"
+  fxLayout.xs="column"
+  style="margin: 0px;"
+>
+  <mat-card
+    *ngFor="let aqui of dados"
+    style="
+      width: 280px;
+      height: 145px;
+      text-align: center;
+      align-items: center;
+    "
+  >
+    <mat-card-header style="padding-top: 0px;">
+      <mat-card-title style="font-size: 16px;" [matMenuTriggerFor]="menu"
+        >{{aqui.empresa}}
+      </mat-card-title>
+      <!-- matTooltip="{{aqui.empresa}} -->
+
+      <mat-menu #menu="matMenu">
+        <button mat-menu-item (click)="reiniciarCentral(aqui.ip)">
+          Reiniciar
+        </button>
+        <mat-divider></mat-divider>
+        <button mat-menu-item (click)="amportal(aqui.ip)">
+          Amportal restart
+        </button>
+        <mat-divider></mat-divider>
+        <!-- <button mat-menu-item (click)="terminalServer()">Acesso TS</button> -->
+      </mat-menu>
+
+      <mat-card-subtitle style="font-size: 12px;"
+        >{{aqui.ip}}</mat-card-subtitle
+      >
+
+      <mat-card-subtitle style="font-size: 12px;"
+        ><span style="color: rgb(9, 9, 139);">{{aqui.tempo}}</span>
+        Ligado - Cpu: {{aqui.processador}}%
+      </mat-card-subtitle>
+
+      <mat-card-subtitle style="font-size: 12px;"
+        ><span style="color: rgb(153, 104, 104);"
+          >Down: {{aqui.down}} - Up: {{aqui.up}}</span
+        >
+      </mat-card-subtitle>
+
+      <mat-card-subtitle
+        ><span style="color: rgb(35, 187, 40);">{{aqui.hd}}</span>% do disco em
+        uso</mat-card-subtitle
+      >
+    </mat-card-header>
+
+    <mat-card-title
+      style="
+        color: rgb(223, 70, 70);
+        font-size: 14px;
+        align-items: center;
+        text-align: center;
+        margin: 0px;
+      "
+      *ngIf="aqui.hd >= 80"
+    >
+      Atenção disco cheio!!!</mat-card-title
+    >
+  </mat-card>
+</div>

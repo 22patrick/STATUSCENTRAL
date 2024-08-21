@@ -1,0 +1,102 @@
+.example-card {
+  position: absolute;
+  top: 3px;
+  left: 5px;
+  right: 5px;
+  bottom: 5px;
+  background-color: #b8e6bf; // #c2f8df;
+  text-transform: uppercase;
+  color: black;
+}
+
+.zica {
+  margin: 100px;
+}
+
+.header {
+  text-align: center;
+}
+
+.example-header-image {
+  background-image: url("https://material.angular.io/assets/img/examples/shiba1.jpg");
+  background-size: cover;
+}
+
+mat-card-title {
+  color: black;
+  align-items: center;
+  text-align: center;
+  font-family: var(--bs-body-font-family);
+  width: 100%;
+}
+
+span {
+  text-align: right;
+}
+
+.cortexto {
+  color: black;
+  text-align: center;
+}
+
+mat-card-subtitle {
+  font-family: var(--bs-body-font-family);
+  // color: rgb(72, 67, 67);
+}
+
+.tempo {
+  color: #051417;
+}
+
+mat-progress-bar {
+  background-color: rgb(170, 161, 161);
+}
+
+// .processador {
+//   color: rgba(188, 46, 46, 0.595);
+// }
+
+// BKP
+// BKP CODIGO
+
+// .icone {
+//   color: rgba(128, 128, 128, 0.63);
+// }
+// .grid-container {
+//   width: 100%;
+// }
+
+// .dashboard-card {
+//   border-radius: 10px;
+//   position: absolute;
+//   top: 10px;
+//   left: 5px;
+//   right: 5px;
+//   bottom: 5px;
+// }
+
+// .more-button {
+//   position: absolute;
+//   top: 5px;
+//   right: 5px;
+//   color: rgba(128, 128, 128, 0.63);
+// }
+
+// .dashboard-card-content {
+//   text-align: center;
+// }
+
+// ::ng-deep .redNoMatch {
+//   --mdc-snackbar-container-color: rgb(168, 14, 14);
+//   --mat-mdc-snack-bar-button-color: black;
+//   --mdc-snackbar-supporting-text-color: #fff;
+// }
+
+// .empheader {
+//   font-size: 15px;
+//   color: rgb(100, 8, 100);
+//   // font-size: min(max(10px, 20px), 14px);
+// }
+// .matTooltip {
+//   white-space: pre-line;
+// }

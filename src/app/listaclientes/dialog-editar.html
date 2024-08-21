@@ -1,0 +1,206 @@
+<form [formGroup]="addressForm" novalidate>
+  <mat-card class="shipping-card">
+    <mat-card-content style="margin-top: 15px;">
+      <mat-card-header>
+        <!-- <mat-card-title style="padding-bottom: 15px; color: paleturquoise;"
+          >Editar cadastro</mat-card-title
+        > -->
+        <mat-icon>drive_file_rename_outline</mat-icon>
+
+        <mat-card-title
+          style="
+            margin-bottom: 20px;
+            color: blueviolet;
+            margin-right: 10px;
+            font-family: cursive;
+          "
+          >Editar cadastro</mat-card-title
+        >
+      </mat-card-header>
+      <div class="row">
+        <div>
+          <mat-form-field style="width: 51.5%;">
+            <mat-label>Empresa:</mat-label>
+            <input
+              matInput
+              [(ngModel)]="data.empresa"
+              formControlName="razaoSocial"
+            />
+            <mat-error
+              *ngIf="addressForm.controls['razaoSocial'].hasError('required')"
+            >
+              Razão social <strong>required</strong>
+            </mat-error>
+          </mat-form-field>
+
+          <mat-form-field class="col">
+            <mat-label>Ip central:</mat-label>
+            <input
+              type="string"
+              matInput
+              [(ngModel)]="data.ip"
+              formControlName="ipCentral"
+            />
+            <mat-error
+              *ngIf="addressForm.controls['ipCentral'].hasError('required')"
+            >
+              Ip central <strong>required</strong>
+            </mat-error>
+          </mat-form-field>
+        </div>
+      </div>
+
+      <!-- <div class="row" *ngIf="!hasUnitNumber">
+        <div class="col"></div>
+      </div> -->
+
+      <div class="row" fxLayout.xs="column">
+        <mat-form-field class="col">
+          <mat-label>Usuário SSH:</mat-label>
+          <input
+            matInput
+            [(ngModel)]="data.usuario"
+            formControlName="usuario"
+          />
+          <mat-error
+            *ngIf="addressForm.controls['usuario'].hasError('required')"
+          >
+            Usuário SSH:
+            <strong>required</strong>
+          </mat-error>
+        </mat-form-field>
+
+        <mat-form-field class="col">
+          <mat-label>Senha:</mat-label>
+          <input
+            matInput
+            [(ngModel)]="data.senha"
+            formControlName="senha"
+            [type]="hide ? 'password' : 'text'"
+          />
+          <button
+            mat-icon-button
+            matSuffix
+            (click)="hide = !hide"
+            [attr.aria-label]="'Hide password'"
+            [attr.aria-pressed]="hide"
+          >
+            <mat-icon>{{hide ? 'visibility_off' : 'visibility'}}</mat-icon>
+          </button>
+          <mat-error *ngIf="addressForm.controls['senha'].hasError('required')">
+            Senha SSH:
+            <strong>required</strong>
+          </mat-error>
+        </mat-form-field>
+
+        <mat-form-field class="col">
+          <mat-label>Porta SSH:</mat-label>
+          <input
+            matInput
+            [(ngModel)]="data.porta"
+            type="number"
+            formControlName="porta"
+          />
+          <mat-error *ngIf="addressForm.controls['porta'].hasError('required')">
+            Porta SSH:
+            <strong>required</strong>
+          </mat-error>
+        </mat-form-field>
+
+        <mat-form-field class="col">
+          <mat-label>Versão</mat-label>
+          <mat-select [(ngModel)]="data.versao" formControlName="versao">
+            <mat-option *ngFor="let aqui of versao" [value]="aqui.central">
+              {{ aqui.central }}
+            </mat-option>
+          </mat-select>
+          <mat-error
+            *ngIf="addressForm.controls['versao'].hasError('required')"
+          >
+            Versão Asterisk<strong> required</strong>
+          </mat-error>
+        </mat-form-field>
+      </div>
+
+      <div class="row">
+        <div class="col"></div>
+      </div>
+    </mat-card-content>
+    <mat-card-actions align="end">
+      <button
+        class="btn"
+        mat-stroked-button
+        routerLink="listacliente"
+        style="margin-left: 10px;"
+        size="small"
+        mat-dialog-close
+        cdkFocusInitial
+      >
+        Cancelar
+      </button>
+
+      <button
+        mat-stroked-button
+        class="btn"
+        routerLink="listacliente"
+        style="margin-left: 10px; color: blueviolet;"
+        mat-dialog-close
+        size="small"
+        (click)="alterar(data.id)"
+        *ngIf="!addressForm.hasError('required', 'razaoSocial') && !addressForm.hasError('required', 'ipCentral')
+          && !addressForm.hasError('required', 'usuario') && !addressForm.hasError('required', 'senha') && !addressForm.hasError('required', 'versao') && !addressForm.hasError('required', 'porta')
+          "
+      >
+        Salvar
+      </button>
+    </mat-card-actions>
+    <!-- <mat-card-footer>
+      <mat-progress-bar mode="indeterminate"></mat-progress-bar>
+    </mat-card-footer> -->
+  </mat-card>
+</form>
+
+<!-- (click)="addCadastro()" -->
+<!-- *ngIf="!addressForm.hasError('required',  'razaoSocial' &&  'cidade' && 'estado' && 'ipCentral' && 'usuario' && 'senha' && 'asterisk' && 'porta' )" -->
+<!-- pattern=['matchRegexp:^(?=\\d+\\.\\d+\\.\\d+\\.\\d+$)(?:(?:25[0-5]|2[0-4][0-9]|1[0-9]{2}|[1-9][0-9]|[0-9])\\.?){4}$'] -->
+
+<!-- <div class="row">
+        <div class="col">
+          <mat-form-field class="full-width">
+            <input matInput placeholder="Cidade:" formControlName="cidade" />
+            <mat-error
+              *ngIf="addressForm.controls['cidade'].hasError('required')"
+            >
+              Cidade <strong>required</strong>
+            </mat-error>
+          </mat-form-field>
+        </div>
+        <div class="col">
+          <mat-form-field class="full-width">
+            <input matInput placeholder="Contato:" formControlName="telefone" />
+            <mat-error
+              *ngIf="addressForm.controls['telefone'].hasError('required')"
+            >
+              Contato <strong>required</strong>
+            </mat-error>
+          </mat-form-field>
+        </div>
+        <div class="col">
+          <mat-form-field class="full-width">
+            <mat-select placeholder="Estado (UF)" formControlName="estado">
+              <mat-option *ngFor="let state of states" [value]="state.sigla">
+                {{ state.nome }} <span> - </span> {{state.sigla}}
+              </mat-option>
+            </mat-select>
+            <mat-error
+              *ngIf="addressForm.controls['estado'].hasError('required')"
+            >
+              Estado <strong>required</strong>
+            </mat-error>
+          </mat-form-field>
+        </div>
+      </div> -->
+
+<!-- *ngIf="!addressForm.hasError('required', 'razaoSocial') && !addressForm.hasError('required', 'ipCentral')
+        && !addressForm.hasError('required', 'usuario') && !addressForm.hasError('required', 'senha') && !addressForm.hasError('required', 'versao') && !addressForm.hasError('required', 'porta')
+        " -->

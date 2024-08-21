@@ -1,0 +1,32 @@
+2024-02-16 13:05:17 - Starting C:\Program Files\nodejs\node.exe  --harmony "D:\CENTRAL_IP\server backend\node_modules\node-windows\lib\wrapper.js" --file "D:\CENTRAL_IP\server backend\src\app.js" --scriptoptions= --log "StatusCentral wrapper" --grow 0.25 --wait 1 --maxrestarts 3 --abortonerror n --stopparentfirst undefined
+2024-02-16 13:05:17 - Started 8384
+2024-02-16 13:12:44 - Stopping statuscentral.exe
+2024-02-16 13:12:44 - ProcessKill 8384
+2024-02-16 13:12:44 - Shutdown exception
+Message:O sistema está sendo desligado.
+
+Stacktrace:   em System.Runtime.InteropServices.Marshal.ThrowExceptionForHRInternal(Int32 errorCode, IntPtr errorInfo)
+   em System.Management.ManagementScope.InitializeGuts(Object o)
+   em System.Management.ManagementScope.Initialize()
+   em System.Management.ManagementObjectSearcher.Initialize()
+   em System.Management.ManagementObjectSearcher.Get()
+   em winsw.WrapperService.GetChildPids(Int32 pid)
+   em winsw.WrapperService.StopProcessAndChildren(Int32 pid)
+   em winsw.WrapperService.StopIt()
+   em winsw.WrapperService.OnShutdown()
+2024-02-16 13:13:13 - Starting C:\Program Files\nodejs\node.exe  --harmony "D:\CENTRAL_IP\server backend\node_modules\node-windows\lib\wrapper.js" --file "D:\CENTRAL_IP\server backend\src\app.js" --scriptoptions= --log "StatusCentral wrapper" --grow 0.25 --wait 1 --maxrestarts 3 --abortonerror n --stopparentfirst undefined
+2024-02-16 13:13:13 - Started 6856
+2024-02-16 13:18:28 - Stopping statuscentral.exe
+2024-02-16 13:18:28 - ProcessKill 6856
+2024-02-16 13:18:28 - Found child process: 6904 Name: conhost.exe
+2024-02-16 13:18:28 - Found child process: 7508 Name: node.exe
+2024-02-16 13:18:28 - Stopping process 6904
+2024-02-16 13:18:28 - Send SIGINT 6904
+2024-02-16 13:18:28 - SIGINT to 6904 failed - Killing as fallback
+2024-02-16 13:18:28 - Stopping process 7508
+2024-02-16 13:18:28 - Send SIGINT 7508
+2024-02-16 13:18:28 - SIGINT to 7508 failed - Killing as fallback
+2024-02-16 13:18:28 - Stopping process 6856
+2024-02-16 13:18:28 - Send SIGINT 6856
+2024-02-16 13:18:28 - SIGINT to 6856 failed - Killing as fallback
+2024-02-16 13:18:28 - Finished statuscentral.exe

@@ -1,0 +1,53 @@
+// *{
+//   font-family: cursive;
+// }
+
+table {
+  width: 100%;
+  height: auto;
+}
+
+.mat-mdc-form-field {
+  font-size: 14px;
+  width: 100%;
+}
+
+th {
+  // color: rgb(181, 150, 209);
+  font-size: 15px;
+  align-items: center;
+  text-align: center;
+}
+
+td {
+  font-size: 13px;
+  align-items: center;
+  text-align: center;
+}
+.modal-dialog {
+  overflow-y: hidden !important;
+}
+::ng-deep .redNoMatch {
+  text-align: center;
+  --mdc-snackbar-container-color: #49ac4e;
+  --mat-mdc-snack-bar-button-color: black;
+  --mdc-snackbar-supporting-text-color: #ffff;
+  --mat-snack-bar-button-color: black;
+}
+
+::ng-deep .erroredNoMatch {
+  text-align: center;
+  --mdc-snackbar-container-color: #dc3545 !important;
+  --mat-mdc-snack-bar-button-color: black !important;
+  --mdc-snackbar-supporting-text-color: #ffff !important;
+  --mat-snack-bar-button-color: black;
+}
+
+.hidetext {
+  -webkit-text-security: disc; /* Default */
+}
+
+
+// .hidetext { -webkit-text-security: none; }
+// .hidetext { -webkit-text-security: circle; }
+// .hidetext { -webkit-text-security: square; }
